@@ -1,0 +1,116 @@
+
+
+.para-button {
+  width: 20%;
+  height: 50px;
+  background-color:black;
+  color: white;
+  border-radius: 25px;
+  margin: 60px auto;
+  display: block;
+  cursor: pointer;
+}
+
+.para-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.button {
+  width: 20%;
+  height: 50px;
+  background-color:black;
+  color: white;
+  border-radius: 25px;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+.button-gym {
+    width: 18%;
+    margin:10px auto;
+    display:block;
+    padding: 20px;
+    color: white;
+    border: 2px solid white;
+    background: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 34px
+
+}
+
+.button-gym:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.prices-six {
+    width: 68%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 10%;
+}
+
+.prices-six:hover {
+  background-color: white;
+  color: black;
+}
+
+.times, .prices {
+  background-color: black;
+  color: white;
+}
+
+.dot {
+  height: 56px;
+  width: 59px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 50px;
+  margin-left: 49px;
+  display: inline-block;
+  border: 2px solid black;
+  cursor: pointer;
+
+}
+
+.dot:hover {
+  background-color: green;
+}
+
+.dot.active {
+  background: green;
+}
+
+.prices, .prices-two, .prices-four {
+  width: 62%;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 50px;
+
+}
+.prices-two:hover, .prices-three:hover {
+  background: green;
+}
+
+.times, .prices-five, .prices-three {
+  width: 62%;
+  height: 100px;
+  margin-top: 50px;
+  // margin-left: 20px;
+}

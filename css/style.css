@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: black; }
+
+form {
+  margin: 35px; }
+
+body {
+  font-family: 'Alata', sans-serif; }
+
+#home {
+  margin: 10%; }
+
+.cover-image {
+  margin-top: 20px; }
+
+.gym-img {
+  width: 100%; }
+
+.contact-box {
+  width: 100%;
+  height: 756px;
+  background-color: white; }
+
+.input-field {
+  width: 506px;
+  height: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  border-radius: 14px;
+  outline: none;
+  margin: auto;
+  display: block; }
+
+.pay-butt {
+  margin-top: 40px;
+  width: 20%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  margin: auto;
+  display: block; }
+
+.headerbro {
+  font-size: 40px; }
+
+.options {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 19px;
+  margin-bottom: 60px; }
+
+.pay-butt:hover {
+  background-color: white;
+  color: black; }
+
+.container h1 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 300px; }
+
+.container-two {
+  width: 100%;
+  height: 855px;
+  background-color: black; }
+
+.col-one {
+  width: 20%;
+  margin: 12% 6%;
+  display: inline-block;
+  background-color: white;
+  height: 350px;
+  border-radius: 10%; }
+
+.col-one i {
+  font-size: 100px;
+  margin: 32% 35%; }
+
+#squash {
+  margin: 20%;
+  margin-top: 0%; }
+
+.squash-section {
+  width: 100%; }
+
+.squash-section h1 {
+  text-align: center;
+  margin: 10%;
+  font-size: 100px; }
+
+.image-squash-cover {
+  width: 100%;
+  height: 893px; }
+
+.image-squash-cover img {
+  width: 100%;
+  height: 550px; }
+
+.image-squash-cover p {
+  font-size: 20px;
+  text-align: left;
+  margin: 40px -1px; }
+
+.prices-container {
+  width: 100%;
+  height: 1000px; }
+
+.buttons-content1 {
+  width: 90%;
+  margin: auto; }
+
+.prices-container p {
+  padding: 96px;
+  margin-top: 40px;
+  font-size: 25px;
+  width: 100%;
+  text-align: center; }
+
+.row-1 {
+  width: 50%;
+  float: left; }
+
+.row-2 {
+  width: 50%;
+  float: right; }
+
+.row-3 {
+  width: 100%; }
+
+.squash-text {
+  width: 100%;
+  height: 150px; }
+
+.squash-text p {
+  text-align: left;
+  font-size: 20px;
+  padding: 40px;
+  margin: 40px; }
+
+.footer {
+  width: 100%;
+  padding: 2%;
+  background-color: white; }
+
+.container-mem {
+  width: 100%;
+  height: 300px;
+  margin-top: -20%; }
+
+.container-mem h1 {
+  text-align: center;
+  font-size: 100px; }
+
+.mem-one {
+  width: 100%;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, white, grey);
+  cursor: pointer;
+  margin-top: 15px;
+  height: 524px; }
+
+.mem-one h1 {
+  text-align: left;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 66px;
+  padding-left: 120px; }
+
+.mem-one p {
+  font-size: 40px;
+  text-align: left;
+  color: black;
+  padding: 120px;
+  line-height: 32px;
+  margin-top: -36px;
+  font-weight: lighter;
+  text-transform: lowercase; }
+
+.row-offer-none {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-top: 40px;
+  background-color: black; }
+
+.row-offer-none h1 {
+  text-align: center;
+  margin-top: 85px;
+  color: white;
+  text-transform: uppercase; }
+
+#offers {
+  margin: 10%; }
+
+.container-pay {
+  width: 100%; }
+
+.container-pay h1 {
+  text-align: center;
+  margin: 5%;
+  font-size: 100px; }
+
+.para1 {
+  text-align: center;
+  font-size: 20px;
+  margin: 22px; }
+
+.staff {
+  width: 33%;
+  height: 270px; }
+
+.staff-container {
+  width: 64%;
+  margin: auto; }
+
+.para-button {
+  width: 20%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 60px auto;
+  display: block;
+  cursor: pointer; }
+
+.para-button:hover {
+  color: black;
+  background-color: white; }
+
+.button {
+  width: 20%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px; }
+
+.button:hover {
+  color: black;
+  background-color: white; }
+
+.button-gym {
+  width: 18%;
+  margin: 10px auto;
+  display: block;
+  padding: 20px;
+  color: white;
+  border: 2px solid white;
+  background: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 34px; }
+
+.button-gym:hover {
+  background: white;
+  color: black;
+  border: 1px solid black; }
+
+.prices-six {
+  width: 68%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 10%; }
+
+.prices-six:hover {
+  background-color: white;
+  color: black; }
+
+.times, .prices {
+  background-color: black;
+  color: white; }
+
+.dot {
+  height: 56px;
+  width: 59px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 50px;
+  margin-left: 49px;
+  display: inline-block;
+  border: 2px solid black;
+  cursor: pointer; }
+
+.dot:hover {
+  background-color: green; }
+
+.dot.active {
+  background: green; }
+
+.prices, .prices-two, .prices-four {
+  width: 62%;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 50px; }
+
+.prices-two:hover, .prices-three:hover {
+  background: green; }
+
+.times, .prices-five, .prices-three {
+  width: 62%;
+  height: 100px;
+  margin-top: 50px; }
+
+@media (max-width: 1462px) {
+  .image-squash-cover p {
+    font-size: 16px;
+    text-align: left;
+    margin: 17px -1px; }
+
+  .staff {
+    width: 32%;
+    height: 270px; } }
+@media (max-width: 1332px) {
+  .squash-section h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 97px; }
+
+  .col-one {
+    width: 20%;
+    margin: 22% 6%;
+    display: inline-block;
+    background-color: white;
+    height: 276px;
+    border-radius: 10%; } }
+@media (max-width: 1212px) {
+  .mem-one p {
+    font-size: 31px;
+    text-align: left;
+    color: black;
+    padding: 50px;
+    line-height: 32px;
+    margin-top: -36px;
+    font-weight: lighter;
+    text-transform: lowercase; }
+
+  .squash-section h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 76px; }
+
+  .mem-one h1 {
+    padding-left: 51px; }
+
+  .pay-butt {
+    margin-top: 40px;
+    width: 40%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin: auto;
+    display: block; }
+
+  .container-two {
+    width: 100%;
+    height: 779px;
+    background-color: black; }
+
+  .image-squash-cover {
+    width: 100%;
+    height: 765px; }
+
+  .prices-container {
+    width: 100%;
+    height: 778px; } }
+@media (max-width: 952px) {
+  .col-one {
+    width: 20%;
+    margin: 33% 6%;
+    display: inline-block;
+    background-color: white;
+    height: 213px;
+    border-radius: 10%; }
+
+  .col-one i {
+    font-size: 93px;
+    margin: 33% 23%; }
+
+  .prices, .prices-two, .prices-four {
+    width: 62%;
+    height: 100px;
+    margin-top: 50px; }
+
+  .prices-six {
+    margin-top: 100px;
+    width: 62%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 89px; }
+
+  .staff {
+    width: 32%;
+    height: 207px; } }
+@media (max-width: 866px) {
+  .image-squash-cover p {
+    font-size: 14px;
+    text-align: left;
+    margin: 10px -1px; }
+
+  .pay-butt {
+    margin-top: 40px;
+    width: 43%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin: auto;
+    display: block; }
+
+  .prices-six {
+    margin-top: 100px;
+    width: 70%;
+    height: 71px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 89px; }
+
+  .squash-section h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 57px; }
+
+  .image-squash-cover img {
+    width: 100%;
+    height: 350px; }
+
+  .image-squash-cover {
+    width: 100%;
+    height: 612px; }
+
+  .prices, .prices-two, .prices-four {
+    width: 78%;
+    height: 53px;
+    margin: 33px 10px; }
+
+  .times, .prices-five, .prices-three {
+    width: 78%;
+    height: 53px;
+    margin: 33px 10px; }
+
+  .prices-container {
+    width: 100%;
+    height: 700px; }
+
+  .button {
+    width: 36%;
+    margin: 10px auto;
+    display: block;
+    padding: 20px;
+    color: white;
+    border: 2px solid white;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 34px; }
+
+  .container-two {
+    width: 100%;
+    height: 550px;
+    background-color: black; }
+
+  .col-one {
+    width: 20%;
+    margin: 20% 6%;
+    display: inline-block;
+    background-color: white;
+    height: 213px;
+    border-radius: 10%; } }
+@media (max-width: 712px) {
+  .button-gym {
+    width: 35%; }
+
+  .mem-one p {
+    font-size: 20px;
+    padding: 33px; }
+
+  .col-one {
+    width: 20%;
+    margin: 27% 6%;
+    display: inline-block;
+    background-color: white;
+    height: 173px;
+    border-radius: 10%; }
+
+  .col-one i {
+    font-size: 73px;
+    margin: 37% 23%; }
+
+  .pay-butt {
+    margin-top: 40px;
+    width: 60%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin: auto;
+    display: block; }
+
+  .prices-six {
+    margin-top: 81px;
+    width: 68%;
+    height: 71px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 89px; } }
+@media (max-width: 660px) {
+  .image-squash-cover p {
+    font-size: 11px;
+    text-align: left;
+    margin: 15px -1px; }
+
+  .container-mem h1 {
+    text-align: center;
+    font-size: 50px; }
+
+  .staff {
+    width: 32%;
+    height: 182px; }
+
+  .staff-container {
+    width: 88%;
+    margin: auto; }
+
+  .button-gym {
+    width: 35%; } }
+@media only screen and (max-width: 512px) and (min-width: 320px) {
+  .button-gym {
+    width: 35%; }
+
+  .mem-one h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 66px; }
+
+  .mem-one {
+    width: 100%;
+    border: 1px solid white;
+    background-image: linear-gradient(to right, white, grey);
+    cursor: pointer;
+    margin-top: 15px;
+    height: 574px; }
+
+  .image-squash-cover img {
+    width: 100%;
+    height: 238px; }
+
+  .image-squash-cover {
+    width: 100%;
+    height: 504px; }
+
+  .squash-section h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 35px; }
+
+  .container-pay h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 66px; }
+
+  .pay-butt {
+    margin-top: 40px;
+    width: 68%; }
+
+  .input-field {
+    width: 330px; }
+
+  .para-button {
+    width: 42%; }
+
+  .prices, .prices-two, .prices-four {
+    width: 78%;
+    height: 53px;
+    margin: 33px 10px; }
+
+  .times, .prices-five, .prices-three {
+    width: 78%;
+    height: 53px;
+    margin: 33px 10px; }
+
+  .prices-six {
+    width: 82%;
+    height: 47px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 45px auto; }
+
+  .prices-container {
+    width: 100%;
+    height: 563px; }
+
+  .container-two {
+    width: 100%;
+    height: 630px;
+    background-color: black; }
+
+  .col-one {
+    width: 25%;
+    margin: 9% 38%;
+    background-color: white;
+    height: 127px;
+    border-radius: 10%; }
+
+  .col-one i {
+    font-size: 57px;
+    margin: 26% 23%; }
+
+  .container-mem {
+    width: 100%;
+    height: 192px;
+    margin-top: -20%; }
+
+  .container h1 {
+    font-size: 76px;
+    color: white;
+    text-align: center;
+    padding-top: 226px; }
+
+  .button {
+    padding: 13px;
+    margin: 20px auto;
+    width: 50%; }
+
+  .staff {
+    width: 32%;
+    height: 138px; } }
+.nav {
+  background: white;
+  height: 98px;
+  width: 100%;
+  font-weight: bold; }
+
+.two {
+  background: black;
+  width: 100%;
+  height: 400px;
+  color: white; }
+
+.two li {
+  list-style: none;
+  text-align: center;
+  line-height: 90px; }
+
+.two a {
+  text-decoration: none;
+  color: white; }
+
+.two a:hover {
+  background: white;
+  color: black;
+  border-radius: 25px;
+  padding: 5px; }
+
+.club-h {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 100px;
+  text-transform: uppercase; }
+
+.menu {
+  font-size: 40px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-top: 25px;
+  float: left;
+  cursor: pointer; }
+
+.icon {
+  width: 100%; }
+
+.logo {
+  width: 100px;
+  margin-top: 25px;
+  margin-right: 40px;
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
